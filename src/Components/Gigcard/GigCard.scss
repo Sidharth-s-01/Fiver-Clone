@@ -1,0 +1,85 @@
+.GigCardWrapper{
+  margin-top: 20px;
+  width: 350px;
+  position: relative;
+   box-sizing: border-box;
+   float: left;
+}
+
+.gigCardImage{
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+
+}
+
+.gDescription{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 330px;
+  align-items: center;
+  padding: 0 10px;
+
+}
+
+.gProfileImage{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.gProfileAndName{
+  display: flex;
+  align-items:center ;
+  gap: 10px;
+  
+}
+
+.gigsDescriptionBottom{
+
+  display: flex;
+  margin-top: 10px;
+  // align-items: center;90uj
+  gap: 10px;
+  flex-direction: column;
+  width: 330px;
+  padding: 0 10px;
+}
+
+.gigMoneyDetails{
+  color: black;
+}
+
+
+
+.gigsratingText{
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.reviewStar{
+  margin-right: 10px;
+}
+.favouriteIcon{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.topRatedtext{
+  background-color: yellow;
+  padding:5px 15px;
+  border-radius: 10px;
+  color: black;
+
+}
+
+.gigsDescTop
+{
+  font-size: 13px;
+}

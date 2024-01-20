@@ -1,0 +1,40 @@
+.categoriesWrapper{
+  padding: 0 140px;
+}
+.categoriesTop{
+  display: flex;
+  // justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+  // align-items: center;
+  // width: 300px;
+}
+
+.CategoriesPathWrapper{
+  display: flex;
+  align-items: first baseline;
+  gap: 20px;
+
+}
+
+
+.TypeOfDesign{
+  color: black;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.exploreAll{
+  font-size: 16px;
+}
+.categoriesCardsWrapper{
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  flex: 1;
+  min-width: 350px;
+  overflow: hidden;
+  // width:350px;
+}

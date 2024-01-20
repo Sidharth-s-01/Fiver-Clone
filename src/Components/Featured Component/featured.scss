@@ -1,0 +1,124 @@
+.featured{
+    background-color: #0a4226;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    padding: 60px 120px ;
+    position: relative;
+   
+   
+    // height: 500px;
+}
+
+.featuredLeft{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+
+}
+
+.featuredRight{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.searchBarSection{
+    display: flex;
+    width: 100%;
+}
+
+.featuredLeftHeader{
+    font-size: 55px;
+    width: 700px;
+}
+
+input{
+
+    width: 530px;
+    padding: 5px;
+    height: 31px;
+    font-size: 15px;
+}
+
+.searchIcon{
+    display: flex;
+    height: 38px;
+    padding: 3px;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    // padding: 5px;
+    
+    background-color: lightgreen;
+}
+
+.popularTab{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.popular{
+     padding: 7px 0;
+}
+
+.popularItem
+{
+    font-size: 13px;
+    border: 2px solid white;
+    padding: 7px;
+    border-radius: 30px;
+}
+
+.imageCarousal{
+    position: absolute;
+    bottom: 0px;
+    right:70px;
+    margin-right: 10px;
+    width: 700px;
+    height: 700px;
+    padding-right: 10px;
+}
+
+
+.ImageDetails{
+    position: absolute;
+    font-weight: 600;
+    right: 70px;
+    bottom: 20px;
+    width: 130px;
+    height: 30px;
+    opacity: 0.7;
+    padding: 15px;
+    background-color: grey;
+    border-radius:20px;
+    border: 1px solid white;
+
+}
+
+.overlay{
+     z-index: 9;
+        // margin: 30px;
+    background: #48dd7e;
+}
+
+.detailsTop{
+    font-size: 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // margin-bottom: 5px;
+   span{
+
+       color: white;
+   }
+}
+
+.detailsBottom{
+    font-size: 16px;
+
+
+}

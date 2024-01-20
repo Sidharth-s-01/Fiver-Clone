@@ -1,0 +1,55 @@
+.AiLogoMakerWrapper{
+  padding:120px;
+  display: flex;
+  height: 450px;
+  color: white;
+  justify-content: space-between;
+  background-color: #0a1e30;
+}
+.AILogMakerLeft{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+ 
+}
+
+.AilogoMakerRight{
+  display:flex;
+  width: 80%;
+  
+  justify-content: center;
+}
+.AiLogoMakerFirst{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.AILogoMakerMainHeading{
+  font-size: 45px;
+  font-weight: 900;
+  width: 500px;
+
+}
+
+.AILogoMakerInputTop{
+  border:None;
+  border-bottom: 1px solid white;
+  width: 500px;
+  padding-bottom: 15px;
+  font-size: 28px;
+  background-color: #0a1e30;
+}
+
+.AILogoMakerButton{
+  width: 160px;
+  font-size: 15px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding: 18px 0;
+  color: black;
+  background-color: white;
+}
+
+
+

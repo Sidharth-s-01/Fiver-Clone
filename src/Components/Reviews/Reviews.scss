@@ -1,0 +1,36 @@
+.ReviewsWrapper{
+  padding: 60px 0px ;
+}
+
+
+.EachReview{
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.reviewImage{
+  height: 350px;
+  width: 600px;
+}
+
+.reviewText{
+  font-family: 'Caveat', cursive;
+  font-size: 35px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.reviewVideo{
+  position: relative;
+}
+
+
+.playicon{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}

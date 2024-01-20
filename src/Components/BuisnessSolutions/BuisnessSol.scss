@@ -1,0 +1,72 @@
+.buisnessWrapper{
+  height: 500px;
+  background-color: #0d084d;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 120px;
+  color: white;
+
+}
+
+.brightImage{
+  width: 550px;
+  height: 400px;
+}
+
+.bLeft{
+  display: flex;
+  flex-direction: column;
+}
+
+.bleftHeader{
+  font-size: 25px;
+  span{
+    font-size: 36px;
+    font-weight: 900;
+
+    span{
+      color: lightgreen;
+    }
+
+  }
+}
+
+
+.secondHeader{
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  width: 380px;
+  line-height: 1.5;
+}
+
+.eachPoint{
+  width:800px ;
+  display: flex;
+  margin-top: 20px;
+  div{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+  }
+
+
+}
+
+.eachPointHeader{
+  font-weight: 600;
+}
+
+.bright{
+  padding-right: 20px;
+}
+
+.LearnMoreButton{
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-size: 17px;
+  color: gray;
+  font-weight: 500;
+  width: 150px;
+}

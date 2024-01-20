@@ -1,0 +1,65 @@
+.GuideWorkWRapper{
+  padding: 50px 120px;
+  margin-top: 20px;
+  // background-color: #e2e0e0;
+  h1{
+    color: rgb(56, 55, 55);
+    padding-left: 15px;
+    margin: 0 0 20px;
+  }
+}
+
+.GuideWork{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  border-radius: 10px;
+  // border: 1px solid;
+
+  padding: 0px 5px 5px;
+  -webkit-box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
+  
+}
+.GuideImage{
+  height: 300px;
+  width: 470px;
+  border-radius: 10px;
+  object-fit:cover;
+  overflow: hidden !important;
+}
+.GuideWorkDescRapper{
+  display: flex;
+  // gap: 15px;
+  align-items: flex-start;
+  width: 460px;
+  padding-left: 10px;
+  margin-top: 10px;
+
+}
+
+.ProfileImage{
+  border-radius: 50%;
+  width: 60px !important;
+  height: 60px !important;
+  object-fit: cover;
+}
+
+.GuideDesc{
+  width: 490px;
+  
+  // gap: 5px;
+  span{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(41, 40, 40);
+  }
+}
+
+.workcat{
+  color: black !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+}

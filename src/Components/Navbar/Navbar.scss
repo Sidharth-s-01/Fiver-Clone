@@ -1,0 +1,265 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+.navbar{
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    color: white;
+    background-color: #0a4226;
+    transition: 0.5s all ease;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    &.active{
+        background-color: white;
+        color: black;
+    }
+
+    
+
+ .Menu{
+        padding:10px 60px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        background-color: white;
+        color: grey;
+        width:80%;
+        gap: 3px;
+        cursor: pointer;
+        .menuItem{
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+
+        
+    }
+    
+
+    
+    .Container{
+        align-items: center;
+        display: flex;
+        padding:10px 60px;
+        justify-content: space-between;
+        width:80%;
+    .Logo{
+        display: flex;
+        align-items: center;
+        .text{
+            font-size: 30px;
+            font-weight: 900;
+            // color: white;
+        }
+        .dot{
+            
+            font-size: 30px;
+            font-weight: 800;
+
+            color: lawngreen;
+        }
+    }
+    .Links{
+        display: flex;
+        gap:24px;
+        align-items: center ;
+        position: relative;
+       
+    }
+    button{
+        color:black;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border:1px solid white;
+        border: none;
+        cursor: pointer;
+        &:hover{
+            color: white;
+            background-color: black;
+        }
+    }
+
+
+    }
+
+    .Profile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:100px;
+    }
+
+    .profilePhoto{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        
+        
+    }
+
+    .options{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right:-70px;
+        // margin-left: 100px;
+        margin-right: 10px;
+        top: 70px;
+        width: 130px;
+        border-radius: 10px;
+        border: 2px solid  gray;
+        color: gray;
+        padding: 10px;
+
+    }
+
+  
+
+    
+
+   
+}
+
+  .linksItem{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+.navbarHR{
+    width: calc(100% - 2px);
+    border: 1px solid ;
+    
+}
+
+// Navbar for Logo Maker tab=================================================================================================
+
+
+.navbarLogoMaker{
+    font-weight: 600;
+    // width: 100%;
+    display: flex;
+    flex-direction:column;
+    // align-items: center;
+    padding: 0 60px;
+
+    color: white;
+    background-color: #0a1e30;
+    transition: 0.5s all ease;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    &.activeLogoMaker{
+        background-color: white;
+        color: rgb(77, 77, 77);
+    }
+
+    
+
+ .Menu{
+        padding:10px 60px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        background-color: white;
+        color: grey;
+        width:80%;
+        gap: 3px;
+
+     
+
+        
+    }
+    
+
+    
+    .ContainerLogoMaker{
+        align-items: center;
+        display: flex;
+        padding:20px;
+        justify-content: space-between;
+        width:90%;
+    .Logo{
+        display: flex;
+        align-items: center;
+        .text{
+            font-size: 30px;
+            font-weight: 900;
+            // color: white;
+        }
+        .dot{
+            
+            font-size: 30px;
+            font-weight: 800;
+
+            color: lawngreen;
+        }
+    }
+    .Links{
+        display: flex;
+        gap:24px;
+        align-items: center ;
+        position: relative;
+       
+    }
+    button{
+        color:black;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border:1px solid white;
+        border: none;
+        cursor: pointer;
+        &:hover{
+            color: white;
+            background-color: black;
+        }
+    }
+
+
+    }
+
+    .Profile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:100px;
+    }
+
+    .profilePhoto{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        
+        
+    }
+
+    .options{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right:-70px;
+        // margin-left: 100px;
+        margin-right: 10px;
+        top: 70px;
+        width: 130px;
+        border-radius: 10px;
+        border: 2px solid  gray;
+        color: gray;
+        padding: 10px;
+    }
+
+
+}

@@ -1,0 +1,21 @@
+.TrustedMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 20px;
+    height: 100px;
+    background-color: rgb(192, 187, 187);
+    gap: 10px;
+}
+
+.TrustedBy{
+    font-size: 18px;
+    color: rgb(48, 48, 48);
+}
+
+.brandName{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(108, 106, 106);
+
+}

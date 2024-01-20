@@ -1,0 +1,63 @@
+.EachWorkWRapper{
+  padding: 50px 120px;
+  background-color: #e2e0e0;
+  h1{
+    color: rgb(56, 55, 55);
+    padding-left: 15px;
+    margin: 0 0 20px;
+  }
+}
+
+.EachWork{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  border-radius: 10px;
+  // border: 1px solid;
+
+  padding: 0px 5px 5px;
+  -webkit-box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
+  
+}
+.mainImage{
+  height: 350px;
+  width: 320px;
+  border-radius: 10px;
+  object-fit:cover;
+  overflow: hidden !important;
+}
+.EachWorkDescWrapper{
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  width: 300px;
+  margin-top: 10px;
+
+}
+
+.ProfileImage{
+  border-radius: 50%;
+  width: 60px !important;
+  height: 60px !important;
+  object-fit: cover;
+}
+
+.workDesc{
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  span{
+    font-size: 12px;
+    color: grey;
+  }
+}
+
+.workcat{
+  color: black !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+}

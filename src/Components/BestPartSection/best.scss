@@ -1,0 +1,60 @@
+.bestWrapper{
+    // margin-top: 30px;
+    background-color: rgb(232, 250, 236);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 80px;
+}
+.headingBestPart{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(67, 67, 67);
+    // margin-top: 20px;
+}
+.eachPoint{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+.pointHeader{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(98, 95, 95);
+}
+
+.eachPointWrapper{
+    width: 450px;
+    margin: 20px 0;
+}
+
+.eachPointDescription{
+    color: gray;
+}
+
+.imageWrapper{
+    position: relative;
+}
+
+.dummyImage{
+    width: 800px;
+    height: 400px;
+    opacity: 0.8;
+}
+
+.playicon{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+
+.closePopup{
+    position: absolute;
+    top: -15px;
+    right:-15px;
+}
+
