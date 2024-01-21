@@ -6,6 +6,7 @@ import Home from "./pages/home/Home";
 import LogoMakerPage from "./pages/LogoMaker/LogoMakerPage";
 import {Link, useLocation } from "react-router-dom";
 import CategoriesPage from "./pages/CategoriesPage/CategoriesPage";
+import SingleProduct from "./pages/SingleProductPage/SingleProduct";
 
 
 function App() {
@@ -31,8 +32,8 @@ function App() {
         element:<Home/>
        },
        {
-         path: "/gig",
-         element: <h1>Hello This Gig Page</h1>,
+         path: "/gig/:id",
+         element: <SingleProduct />,
        },
        {
          path: "/gigs/:category",

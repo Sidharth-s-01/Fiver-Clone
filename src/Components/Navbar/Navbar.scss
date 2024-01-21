@@ -16,7 +16,7 @@ body{
     transition: 0.5s all ease;
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 11;
 
     &.active{
         background-color: white;
@@ -132,6 +132,7 @@ body{
 }
 
   .linksItem{
+        cursor: pointer;
         &:hover{
             text-decoration: underline;
         }

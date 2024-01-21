@@ -9,6 +9,7 @@
 }
 
 .EachWork{
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,6 +22,10 @@
 -moz-box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
 box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
   
+}
+
+.EachWorkLink{
+  text-decoration: none;
 }
 .mainImage{
   height: 350px;

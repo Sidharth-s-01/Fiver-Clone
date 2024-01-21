@@ -1,7 +1,7 @@
-.categoriesWrapper{
-  padding: 0 140px;
+.categoriesWrapper {
+  padding: 0 155px;
 }
-.categoriesTop{
+.categoriesTop {
   display: flex;
   // justify-content: space-between;
   flex-direction: column;
@@ -10,24 +10,22 @@
   // width: 300px;
 }
 
-.CategoriesPathWrapper{
+.CategoriesPathWrapper {
   display: flex;
   align-items: first baseline;
-  gap: 20px;
-
+  gap: 10px;
 }
 
-
-.TypeOfDesign{
+.TypeOfDesign {
   color: black;
   font-size: 30px;
   font-weight: 900;
 }
 
-.exploreAll{
+.exploreAll {
   font-size: 16px;
 }
-.categoriesCardsWrapper{
+.categoriesCardsWrapper {
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -37,4 +35,80 @@
   min-width: 350px;
   overflow: hidden;
   // width:350px;
+}
+
+.dropDownWrapper {
+  margin: 10px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.TotalServicesAvailable {
+  padding-top: 20px;
+  // color: red;
+}
+
+.filterSection {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+
+  .dropDownMenu1 {
+    position: relative;
+
+    .dropHead{
+      display: flex;
+      // transition: 2s all ease;
+
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      border: 1px solid black;
+      padding: 10px;
+      width: 180px;
+    }
+    img{
+      margin-left: 10px;
+      width: 13px;
+      height: 13px;
+    
+    }
+    .serviceDrop {
+    // overflow: hidden;
+
+      transition: 2s all ease;
+      border: 2px solid black;
+      border-top: none;
+      width: 190px;
+      padding: 5px;
+      padding-bottom: 10px;
+      border-radius: 0  0 10px 10px;
+      background-color: rgb(241, 241, 241);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      position: absolute;
+      left: 0;
+      color: grey;
+      bottom: -96px;
+      z-index:10;
+      span{
+        cursor: pointer;
+      }
+  }
+  .serviceClosed{
+    display: none;
+  }
+  }
+}
+
+.NumberRow{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  color:grey;
+  cursor:pointer
 }

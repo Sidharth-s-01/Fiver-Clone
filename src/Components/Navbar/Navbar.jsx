@@ -40,7 +40,7 @@ const currentUser=null;
         <div className={active || pathname != "/" ? "navbar active" : "navbar"}>
         <div className="Container">
           <div className="Logo">
-            <Link to="/Orders" className="link">
+            <Link to="/" className="link">
               <span className="text">fiver</span>
               <span className="dot">.</span>
             </Link>
